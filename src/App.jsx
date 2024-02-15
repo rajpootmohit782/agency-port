@@ -1,9 +1,10 @@
 import "./App.css";
+import Navbar from "./Components/Navbar";
 
 function App() {
   return (
-    <div>
-      Arino starter files(images included)
+    <div className="bg-dark">
+      <Navbar />
     </div>
   );
 }
